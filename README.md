@@ -21,7 +21,7 @@ This chatbot provides emotional support, coping suggestions, and empathetic conv
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```bash
 project/
@@ -34,7 +34,7 @@ project/
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 * Python
 * Streamlit
@@ -45,7 +45,7 @@ project/
 
 ---
 
-# 📦 Installation
+# Installation
 
 ## 1. Clone the Repository
 
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ---
 
-# 📄 requirements.txt
+# requirements.txt
 
 ```txt
 streamlit
@@ -93,7 +93,7 @@ pydantic
 
 ---
 
-# 🔑 Environment Variables
+# Environment Variables
 
 Create a `.env` file in the root directory.
 
@@ -107,7 +107,7 @@ Get your Gemini API key from:
 
 ---
 
-# ▶️ Run the Application
+# Run the Application
 
 ```bash
 streamlit run app.py
@@ -121,7 +121,7 @@ http://localhost:8501
 
 ---
 
-# ✅ Input Validation
+# Input Validation
 
 The chatbot validates user input before sending it to Gemini.
 
@@ -140,7 +140,7 @@ if len(value.split()) < 5:
 
 ---
 
-# 🛡️ Output Validation
+# Output Validation
 
 The chatbot validates AI-generated responses before displaying them.
 
@@ -159,13 +159,13 @@ if len(value.split()) > 120:
 
 ---
 
-# ☁️ Deployment on AWS EC2
+# Deployment on AWS EC2
 
 This application is deployed on an AWS EC2 instance using Streamlit.
 
 ---
 
-## 🚀 EC2 Deployment Steps
+## EC2 Deployment Steps
 
 ### 1. Launch EC2 Instance
 
@@ -251,7 +251,7 @@ streamlit run app.py --server.port 8501 --server.address 0.0.0.0
 
 ---
 
-# 🔓 Configure Security Group
+# Configure Security Group
 
 In AWS EC2 Security Groups, allow inbound traffic:
 
@@ -262,7 +262,7 @@ In AWS EC2 Security Groups, allow inbound traffic:
 
 ---
 
-# 🌐 Access Application
+# Access Application
 
 Open in browser:
 
