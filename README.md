@@ -1,6 +1,6 @@
 Here is the complete `README.md` file for your project:
 
-# 🧠 Mental Health Support Chatbot
+# Mental Health Support Chatbot
 
 A compassionate AI-powered mental health support chatbot built using Streamlit and Google Gemini API.
 
@@ -8,7 +8,7 @@ This chatbot provides emotional support, coping suggestions, and empathetic conv
 
 ---
 
-# 🚀 Features
+# Features
 
 * 💬 Conversational mental health support
 * 🤖 Powered by Gemini 2.5 Flash Lite
