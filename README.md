@@ -171,10 +171,8 @@ This application is deployed on an AWS EC2 instance using Streamlit.
 
 Recommended configuration:
 
-* Ubuntu Server 22.04 LTS
-* t2.micro (Free Tier eligible)
-* Minimum 8 GB storage
-
+* Ubuntu Server 26.04 LTS (HVM), SSD Volume Type
+* t3.micro (Free Tier eligible)
 ---
 
 ### 2. Connect to EC2
