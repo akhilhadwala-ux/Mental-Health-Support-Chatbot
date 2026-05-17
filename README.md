@@ -261,15 +261,6 @@ It is **NOT**:
 If someone is in crisis or immediate danger, contact local emergency services or a mental health professional immediately.
 
 ---
-
-# 📸 Screenshot
-
-Add your application screenshot here.
-
-```markdown
-![App Screenshot](screenshot.png)
-```
-
 ---
 
 # 🔮 Future Improvements
