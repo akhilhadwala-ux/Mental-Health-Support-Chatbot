@@ -248,38 +248,6 @@ gemini_key=YOUR_GEMINI_API_KEY
 ```bash
 streamlit run app.py --server.port 8501 --server.address 0.0.0.0
 ```
-
----
-
-# Configure Security Group
-
-In AWS EC2 Security Groups, allow inbound traffic:
-
-| Type       | Port |
-| ---------- | ---- |
-| Custom TCP | 8501 |
-| SSH        | 22   |
-
----
-
-# Access Application
-
-Open in browser:
-
-```bash
-http://YOUR_EC2_PUBLIC_IP:8501
-```
-
----
-
-# ⚙️ Optional Production Improvements
-
-* Use Nginx as reverse proxy
-* Configure HTTPS with Let's Encrypt
-* Run app using `tmux` or `systemd`
-* Set up domain name
-* Enable monitoring & logging
-
 ---
 
 # ⚠️ Disclaimer
