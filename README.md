@@ -134,8 +134,8 @@ The chatbot validates user input before sending it to Gemini.
 Example:
 
 ```python
-if len(value.split()) < 5:
-    raise ValueError("Input must contain at least 5 words")
+if len(value.split()) < 4:
+    raise ValueError("Input must contain at least 4 words")
 ```
 
 ---
